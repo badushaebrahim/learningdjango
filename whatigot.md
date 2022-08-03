@@ -4,6 +4,11 @@ source bin/activate
 
 pip install django==2.0.7
 
+Run pip install -r requirements.txt (Python 2), or pip3 install -r requirements.txt (Python 3)
+#### make requirements txt
+pip freeze > requirements.txt.
+
+
 django-admin startproject badu
 
 cd badushatest
