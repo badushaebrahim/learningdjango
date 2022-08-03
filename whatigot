@@ -1,0 +1,16 @@
+ virtualenv -p python3 .
+
+source bin/activate
+
+pip install django==2.0.7
+
+django-admin startproject badu
+
+cd badushatest
+
+
+
+
+##in case of vscode death
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+##run
