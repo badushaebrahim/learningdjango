@@ -41,6 +41,6 @@ delete sqlite
 
 
 ## managemet 
-lsof -i :portno
+    lsof -i :portno
 to get process id on portno
 
