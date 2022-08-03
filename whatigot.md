@@ -42,5 +42,5 @@ delete sqlite
 
 ## managemet 
     lsof -i :portno
-to get process id on portno
+to get process id on portno to kill and free up port 
 
