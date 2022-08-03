@@ -4,12 +4,13 @@
 
 <!--user check-->
 {% if user.is_authenticated %}
-        <p>Welcome {{ user.username }} !!!</p>       
+        <p>Welcome {{ user.username }} !!!</p>  
+        
+{% elif not  user.is_authenticated %}
+<p>lease login</p>
+     
     {% endif %}
 
-{% if not  user.is_authenticated %}
-<p>lease login</p>
-{% endif %}
 
 
 
@@ -21,7 +22,7 @@
 <ul>
 {% for listI  in  values_list %}
 
-<li>{{ listI }}</li>
+<li>{{ forloop.counter}}-{{ listI }}</li>
 {% endfor %}
 
 
