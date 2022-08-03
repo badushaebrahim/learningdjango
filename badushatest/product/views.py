@@ -4,11 +4,15 @@ from django.http import HttpResponse
 
 def home_view(request,*args,**kwargs):
     print(request)
-    #print(args,kwargs)
+    context ={
+        'name':"badusha",
+        'age':21,
+        'values_list': [25,88,66]
+    }
     
-    return render(request,"home.html",{})
+    return render(request,"homepage/home.html",context)
 
 def contact_view(request,*args,**kwargs):
     print(args,kwargs)
     print(request.user)
-    return render(request,"contact.html",{})
+    return render(request,"homepage/contact.html",{})

@@ -1,0 +1,31 @@
+{%extends 'homepage/base.html' %}
+{% block content %}
+<h1>hello from template</h1>
+
+<!--user check-->
+{% if user.is_authenticated %}
+        <p>Welcome {{ user.username }} !!!</p>       
+    {% endif %}
+
+{% if not  user.is_authenticated %}
+<p>lease login</p>
+{% endif %}
+
+
+
+
+
+
+
+
+<ul>
+{% for listI  in  values_list %}
+
+<li>{{ listI }}</li>
+{% endfor %}
+
+
+</ul>
+
+
+{% endblock %}
