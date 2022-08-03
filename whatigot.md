@@ -8,6 +8,11 @@ django-admin startproject badu
 
 cd badushatest
 
+### make app
+at root where manage.py file exist
+
+    python manage.py startapp app name
+also add app to setting.py to use
 
 
 
