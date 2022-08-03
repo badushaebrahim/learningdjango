@@ -3,6 +3,7 @@
 {% block content %}
 
 <h1>{{object.title}}</h1>
+<p>{% if object.title  != none and object.title != '' %}{{object.title}}{%else%}{{object.price}} {% endif %}</p>
 <p>{{object.price}}</p>
 
 
