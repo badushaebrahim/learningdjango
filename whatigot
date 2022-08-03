@@ -14,3 +14,7 @@ cd badushatest
 ##in case of vscode death
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 ##run
+
+
+## imp
+while git push in ubuntu u need to use personal acces token u generate rather tha password
