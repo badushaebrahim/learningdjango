@@ -40,3 +40,7 @@ delete sqlite
     model_class.objects.create(pass values)
 
 
+## managemet 
+lsof -i :portno
+to get process id on portno
+
