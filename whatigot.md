@@ -49,3 +49,6 @@ delete sqlite
     lsof -i :portno
 to get process id on portno to kill and free up port 
 
+## python linting fix at vscode in case of extention fail
+visit link 
+    https://code.visualstudio.com/docs/python/linting
