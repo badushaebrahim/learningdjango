@@ -57,3 +57,10 @@ to get process id on portno to kill and free up port
 ## python linting fix at vscode in case of extention fail
 visit link 
     https://code.visualstudio.com/docs/python/linting
+    
+    
+    
+## how to start postgressql
+  sudo server start postgrsql
+ 
+  sudo systemctl postgresql start
