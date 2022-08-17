@@ -71,15 +71,15 @@ visit link
 ## how to install and set up redis out side pipenv 
 
 
-  1519  sudo systemctl start postgresql
- 1520  sudo systemctl status postgresql
- 1521  sudo apt install redis-server
- 1522  sudo nano /etc/redis/redis.conf
- 1523  sudo  code  /etc/redis/redis.conf
- 1524  sudo nano /etc/redis/redis.conf
- 1525  sudo systemctl restart redis.service
- 1526  sudo systemctl status redis
- 1527  redis-server
+     sudo systemctl start postgresql
+     sudo systemctl status postgresql
+     sudo apt install redis-server
+     sudo nano /etc/redis/redis.conf
+     sudo  code  /etc/redis/redis.conf
+     sudo nano /etc/redis/redis.conf
+     sudo systemctl restart redis.service
+     sudo systemctl status redis
+     redis-server
 
 
 
