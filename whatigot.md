@@ -85,6 +85,6 @@ visit link
 
 
 ## pipenv shell setup celary and redis
-   pip install celary redis
+    pip install celary redis
     celery -A blog22 worker -l info
    
