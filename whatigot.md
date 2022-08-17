@@ -64,3 +64,27 @@ visit link
   sudo server start postgrsql
  
   sudo systemctl postgresql start
+  
+  
+  
+  
+## how to install and set up redis out side pipenv 
+
+
+  1519  sudo systemctl start postgresql
+ 1520  sudo systemctl status postgresql
+ 1521  sudo apt install redis-server
+ 1522  sudo nano /etc/redis/redis.conf
+ 1523  sudo  code  /etc/redis/redis.conf
+ 1524  sudo nano /etc/redis/redis.conf
+ 1525  sudo systemctl restart redis.service
+ 1526  sudo systemctl status redis
+ 1527  redis-server
+
+
+
+
+## pipenv shell setup celary and redis
+   pip install celary redis
+    celery -A blog22 worker -l info
+   
